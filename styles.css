@@ -1,0 +1,88 @@
+body {
+   height: 700px;
+}
+ul {
+   list-style-type: none;
+}
+ul, li {
+
+   margin: 0;
+   
+   padding: 0;
+   
+   
+}
+.btn-remove{
+
+   width: 40px;
+   height: 40px;
+   background-image: url("images/delete.svg");
+   background-size: 38px 38px;
+   position: absolute;
+   top: 5px;
+   right: 10px;
+
+}
+
+
+
+.allWrapper{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+
+.autocomplete{
+   width: 480px;
+   background-color: #C4C4C4;
+}
+
+.addedRepos{
+   background-color: #C4C4C4;
+   width: 480px;
+   margin-top: 15px;
+}
+.name{
+   display: block;
+   width: 460px;
+}
+.owner{
+   display: none;
+}
+
+.stars{
+   display: none;
+}
+.search-line{
+   width: 170px;
+   margin: 0 auto;
+}
+
+.title{
+   text-align: center;
+}
+
+.searchingRepo{
+   width: 440px;
+   background-color: #FFF;
+   margin: 0 auto;
+   border: solid 2px black;
+}
+
+.searchingRepo:hover {
+   background-color: #65CDF9;
+}
+
+.addedRepo{
+   display: flex;
+   flex-direction: column;
+   background-color: #E27BEB;
+   list-style-type: none;
+   width: 440px;
+   margin: 0 auto;
+   position: relative;
+   border: solid 2px black;
+}
